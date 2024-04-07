@@ -3,9 +3,8 @@ import React from 'react'
 
 const page = async() => {
 
-  await sleep(2000);
   return (
-    <div><h1>thi is a homepage</h1></div>
+    <div className='min-h-[600px]'>home!</div>
   )
 }
 
