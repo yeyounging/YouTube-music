@@ -13,7 +13,7 @@ const Sidebar = ({ children }) => {
           <Navigator />
         </div>
       </nav>
-      <div className="flex">{children}</div>
+      <div className="flex-1">{children}</div>
     </div>
   );
 };
