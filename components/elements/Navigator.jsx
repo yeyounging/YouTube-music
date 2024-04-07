@@ -36,32 +36,29 @@ const Navigator = () => {
 
   return (
     <div>
-      <section className="flex flex-col gap-2 p-4">
+      <section className="p-4">
         {routes.map((route) => {
           return (
             <Link key={route.label} href={route.href}>
               <div
                 className={cn(
-                  "text-[16px] flex flex-row items-center gap-4 hover:bg-neutral-700 rounded-lg p-2",
+                  "flex flex-row items-center gap-3 text-[16px] hover:bg-neutral-700 rounded-lg p-2",
                   route.isActive && "bg-neutral-800"
                 )}
               >
                 {route.icon}
-                <span>{route.label}</span>
+                {route.label}
               </div>
             </Link>
           );
         })}
       </section>
-      <section className="px-6">
-        <div className="w-full h-[1px] bg-neutral-700"></div>
+      <section className="px-6 py-5">
+        <div className="w-full h-[1px] bg-gray-700"></div>
       </section>
       <section className="px-6">
-        <div
-          className="hover:bg-neutral-700 cursor-pointer
-         flex flex-row items-center bg-neutral-800 my-6 rounded-3xl p-2 font-[200] justify-center gap-2"
-        >
-          <FiPlus size={24}></FiPlus>
+        <div className="flex flex-row items-center justify-center bg-neutral-800 rounded-3xl p-2 gap-2 font-[200] cursor-pointer ">
+          <FiPlus size={24} />
           <span>새 재생목록</span>
         </div>
       </section>
