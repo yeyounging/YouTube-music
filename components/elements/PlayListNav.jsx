@@ -1,6 +1,6 @@
 "use client";
 
-import usePlayerState from "@/app/hooks/usePlayerState";
+import usePlayerState from "@/hooks/usePlayerState";
 import React from "react";
 import { IoMdPlayCircle } from "react-icons/io";
 

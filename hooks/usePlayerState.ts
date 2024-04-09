@@ -1,5 +1,5 @@
 import { dummyAllSongList } from "@/lib/dummyData";
-import { Song } from "../types";
+import { Song } from "../app/types";
 import { create } from "zustand";
 
 interface PlayerState {
