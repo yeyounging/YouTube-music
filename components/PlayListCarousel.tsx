@@ -46,6 +46,7 @@ const PlayListCarousel: React.FC<PlayListCarouselProps> = ({
             </div>
           </div>
         </div>
+
         <CarouselContent className="mt-4">
           {playlistArray?.map((playlist, index) => {
             return (

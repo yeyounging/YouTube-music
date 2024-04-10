@@ -8,7 +8,6 @@ import { FiPlay } from "react-icons/fi";
 import IconButton from "./elements/IconButton";
 
 const PlayListCard = ({ playlist = {} } = {}) => {
-
   const { push } = useRouter();
   const { id, owner = "", playlistName = "", songList = [] } = playlist ?? {};
 
