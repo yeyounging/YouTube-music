@@ -10,7 +10,7 @@ import {
 import PlayListCard from "./PlayListCard";
 
 interface PlayListCarouselProps {
-  title: string;
+  title?: string;
   subTitle?: string;
   Thumbnail?: React.ReactNode;
   playlistArray?: Playlist[];
@@ -46,13 +46,12 @@ const PlayListCarousel: React.FC<PlayListCarouselProps> = ({
             </div>
           </div>
         </div>
-
         <CarouselContent className="mt-4">
           {playlistArray?.map((playlist, index) => {
             return (
               <CarouselItem
                 key={index}
-                className="md:basis-1/2 lg:basis-1/3 xl:basis-1/5"
+                className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5"
               >
                 <PlayListCard playlist={playlist} />
               </CarouselItem>
