@@ -9,7 +9,7 @@ const UserIcon = ({ size = "sm" }) => {
         "w-[26px] h-[26px]" && size === "lg" && "w-[56px] h-[56px] "
       )}
     >
-      <AvatarImage src="https://github.com/shadcn.png" />
+    <AvatarImage src="https://i.ibb.co/gjzHDN2/Cute-Yawning-Cat.jpg" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   );

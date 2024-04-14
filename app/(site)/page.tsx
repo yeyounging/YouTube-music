@@ -25,7 +25,7 @@ const page = async () => {
             </div>
           }
           title="다시 듣기"
-          subTitle="도도"
+          subTitle="애옹"
         />
         <div className="mt-20"></div>
         <PlayListCarousel
