@@ -6,7 +6,7 @@ import { FiPlayCircle } from "react-icons/fi";
 import { FiThumbsDown } from "react-icons/fi";
 import { FiThumbsUp } from "react-icons/fi";
 import { FiMoreVertical } from "react-icons/fi";
-import IconButton from "./elements/IconButton";
+import IconButton from "@/components/elements/IconButton";
 import { useRouter } from "next/navigation";
 import usePlayerState from "@/hooks/usePlayerState";
 

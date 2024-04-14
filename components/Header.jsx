@@ -37,7 +37,7 @@ const HeaderDrawer = ({ children }) => {
 
 const Header = ({ children }) => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const {headerImageSrc} = useUIState;
+  const {headerImageSrc} = useUIState();
   const headRef = useRef();
 
   useEffect(() => {

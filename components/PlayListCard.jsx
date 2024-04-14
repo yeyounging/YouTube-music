@@ -40,11 +40,10 @@ const PlayListCard = ({ playlist = {} } = {}) => {
           </div>
           <div
             onClick={onClickPlay}
-            className=" absolute bottom-4 right-4 flex items-center justify-center
-           transform-gpu transition-transform hover:scale-110 
-           bg-[rgba(0,0,0,0.7)] w-[45px] h-[45px] rounded-full
-           hover:bg-[rgba(0,0,0,0.9)] pl-[1.5px]
-           "
+            className=" absolute bottom-4 right-4 flex items-center justify-center  
+            transform-gpu transition-transform hover:scale-110 
+            bg-[rgba(0,0,0,0.7)] w-[45px] h-[45px] rounded-full
+            hover:bg-[rgba(0,0,0,0.9)] pl-[1.5px]"
           >
             <FiPlay size={22} color="red" />
           </div>
